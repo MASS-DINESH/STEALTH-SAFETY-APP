@@ -1,0 +1,7 @@
+node_modules
+.wwebjs_auth
+.wwebjs_cache
+.baileys_auth
+uploads
+.env
+.git

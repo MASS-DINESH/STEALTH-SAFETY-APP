@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Safety App</string>
+    <string name="accessibility_service_description">
+        Used only to detect a 3x volume-up button press pattern, so the app
+        can trigger a safety alert even when the screen is off. This service
+        does not read or interact with screen content.
+    </string>
+</resources>

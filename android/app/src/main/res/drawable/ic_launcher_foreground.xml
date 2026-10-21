@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Shield outer body with navy-purple gradient appearance -->
+    <path
+        android:fillColor="#3B1FA8"
+        android:pathData="M54,18 L27,31 L27,53 C27,70 38,84 54,91 C70,84 81,70 81,53 L81,31 Z" />
+
+    <!-- Shield inner layer -->
+    <path
+        android:fillColor="#5B2DE8"
+        android:pathData="M54,24 L33,35 L33,53 C33,67 42,79 54,85 C66,79 75,67 75,53 L75,35 Z" />
+
+    <!-- Shield glow border -->
+    <path
+        android:fillColor="#8B5CF6"
+        android:pathData="M54,18 L27,31 L27,53 C27,70 38,84 54,91 L54,85 C42,79 33,67 33,53 L33,35 L54,24 L75,35 L75,53 C75,67 66,79 54,85 L54,91 C70,84 81,70 81,53 L81,31 Z" />
+
+    <!-- Shield center checkmark (clean, no SOS / no bolt) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,54 L51,61 L65,45" 
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+</vector>
